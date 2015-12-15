@@ -1,6 +1,6 @@
-﻿本程序采用静态编译，集成libpcap
-解压后，进入编译根目录
-tar.gz源码包放在dl文件夹，Makefile放在package/scutclient中
+本程序采用静态编译，集成libpcap
+
+.tar.gz源码包放在dl文件夹，Makefile放在package/scutclient中
 （没有该scutclient文件夹的话就自己新建一个）
 
 该版本是适用于AR71XX处理器系列的源代码，如果需要编译其他版本的处理器，
