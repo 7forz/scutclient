@@ -131,7 +131,7 @@ void SendYoungResponseIdentity(const uint8_t request[])
 	ipinfo[4+userlen+iplen]=0x2e;  //.
 	ipinfo[5+userlen+iplen]=0x31;  //1
 	ipinfo[6+userlen+iplen]=0x2e;  //.   跟随版本号变化
-	ipinfo[7+userlen+iplen]=0x35;  //5   modified by 7forz 
+	ipinfo[7+userlen+iplen]=0x37;  //7   modified by 7forz 
 	ipinfo[8+userlen+iplen]=0x23;  //#
 	uint16_t eaplen;
 	// Fill Ethernet header
@@ -298,7 +298,7 @@ void SendYoungResponseMD5(const uint8_t request[])
 	md5info[20+userlen+iplen]=0x2e;  //.
 	md5info[21+userlen+iplen]=0x31;  //1
 	md5info[22+userlen+iplen]=0x2e;  //.
-	md5info[23+userlen+iplen]=0x35;  //5
+	md5info[23+userlen+iplen]=0x37;  //7
 	md5info[24+userlen+iplen]=0x23;  //#
 	md5info[25+userlen+iplen]=0x45;  //E
 	md5info[26+userlen+iplen]=0x58;  //X
