@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 include $(INCLUDE_DIR)/kernel.mk
 
 PKG_NAME:=scutclient
-PKG_RELEASE:=4
+PKG_RELEASE:=5
 PKG_VERSION:=1.4
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 
