@@ -1,6 +1,6 @@
 本程序采用静态编译，集成libpcap
 
-请下载源代码，解压后放入 scutclient-1.4 文件夹内，压缩成 scutclient-1.4-5.tar.gz 放在dl文件夹， Makefile 文件放在 package/scutclient 中（没有该scutclient文件夹的话就自己新建一个）
+请下载源代码，解压后放入 scutclient-1.4 文件夹内，压缩成 scutclient-1.4.tar.gz 放在dl文件夹， Makefile 文件放在 package/scutclient 中（没有该scutclient文件夹的话就自己新建一个）
 
 该版本是适用于AR71XX处理器系列的源代码，如果需要编译其他版本的处理器，
 请把源码包中的libpcap.a替换成你需要编译的版本即可。
