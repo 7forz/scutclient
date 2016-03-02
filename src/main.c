@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 {
 	int client=0;
 	printf("\n***************************************************************\n\n");
-	printf("SCUTclient is based on njit8021xclient which is made by liuqun.\n");
+	printf("SCUTclient v1.4-5 is based on njit8021xclient which is made by liuqun.\n");
 	printf("Welcome to report bugs at Router of SCUT QQ group 262939451.\n\n");
 	printf("\n***************************************************************\n");
 	/* 检查当前是否具有root权限 */
